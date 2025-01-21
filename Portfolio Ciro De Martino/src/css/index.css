@@ -1,0 +1,142 @@
+/* Color Fonts
+--night: #0b090aff;
+--eerie-black: #161a1dff;
+--blood-red: #660708ff;
+--cornell-red: #a4161aff;
+--cornell-red-2: #ba181bff;
+--imperial-red: #e5383bff;
+--silver: #b1a7a6ff;
+--timberwolf: #d3d3d3ff;
+--white-smoke: #f5f3f4ff;
+--white: #ffffffff;*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5 ;
+   
+
+}
+
+/*header*/
+
+.header{
+    background-color:#0b090a;
+    color:#ffffff;
+    padding: 20px 10px;
+
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.header-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.header-nav li{
+    margin: 0 15px;
+}
+
+.header-nav a{
+    color: #e5383b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-nav a:hover{
+    color: #0b090a;
+    background-color: #e5383b;
+}
+
+/*main*/
+.main-content {
+    padding: 20px 10%;
+}
+
+.section{
+    margin-bottom: 50px;
+
+}
+
+.projects-container{
+ background-color: #ffffff;
+ color: belack;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) ;
+} 
+
+ #about{
+ height: 80px;   
+ width: 1280px;
+ background-color: black;
+ color: black;
+ border-radius: 10px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) ;
+ text-align: center;
+ position: relative;
+ 
+
+}
+
+ #about:hover{
+    height: 80px;   
+    width: 1280px;
+    background-color: white;
+    color: #0b090a;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+
+}
+
+.position{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: brown;
+    text-align: center;
+    border-radius: 10px;
+    font-style: oblique;
+    position: absolute;
+    top: 10px;
+    left: -105px;
+}
+
+.project{
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: #161a1d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10%;
+    margin-top: 20px;
+}
+
+.footer a{
+    color: #e5383b;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
